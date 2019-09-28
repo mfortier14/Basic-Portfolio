@@ -1,0 +1,95 @@
+
+#navbar {
+    padding: 0;
+    margin-bottom: 200px;
+}
+
+#nav-container {
+    background: white;
+    width: 960px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif'
+    font-size: 25px;
+}
+
+#name {
+    background: #4aaaa5;
+    width: 250px;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    margin: 0;
+}
+
+#navigation {
+    background:white;
+    /* width: 250px; */
+    float: right;
+}
+/* w3 schools  */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.nav {
+    padding: 40px 20px 20px 20px;
+    display: inline;
+}
+
+#main-content {
+    width: 960px;
+    margin: auto;
+    font-family: 'Arial', 'Helventica Neue', 'Helvetica', 'sans-serif';
+}
+
+img {
+  height: 100px;
+  width: 100px;
+  float: left;
+}
+
+#nav-container2 {
+    margin-bottom: 20px;
+}
+
+.nav2 {
+    float: right;
+    padding: 40px 10px 10px 20px;
+}
+
+#full {
+    width: 100%;
+    clear: both;
+}
+
+.nav3 {
+    float: right;
+    padding: 40px 10px 10px 20px;
+    list-style-type: none;
+}
+
+#navigation3 {
+    display: inline;
+}
+
+#portfolio {
+    background: #4aaaa5;
+    width: 250px;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    margin: 0;
+}
+
+#main-portfolio {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    float: left;
+  }
+
+  body {
+    background-image: url("circle-blues.png");
+  }
