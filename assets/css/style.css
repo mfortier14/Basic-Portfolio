@@ -1,14 +1,16 @@
 
 #navbar {
     padding: 0;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
+    background: white;
 }
 
 #nav-container {
-    background: white;
     width: 960px;
-    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif'
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
     font-size: 25px;
+    margin: auto;
+    height: 10px;
 }
 
 #name {
@@ -21,7 +23,6 @@
 }
 
 #navigation {
-    background:white;
     /* width: 250px; */
     float: right;
 }
@@ -30,7 +31,9 @@
     content: "";
     clear: both;
     display: table;
+    height: 20px;
   }
+  
 
 .nav {
     padding: 40px 20px 20px 20px;
@@ -41,6 +44,8 @@
     width: 960px;
     margin: auto;
     font-family: 'Arial', 'Helventica Neue', 'Helvetica', 'sans-serif';
+    background: white;
+    padding: 100px;
 }
 
 img {
@@ -49,13 +54,46 @@ img {
   float: left;
 }
 
+#navbarcontact {
+    padding: 0;
+    margin-bottom: 50px;
+    background: white;
+    height: 50px;
+}
+
 #nav-container2 {
-    margin-bottom: 20px;
+    width: 960px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', 'serif';
+    font-size: 25px;
+    margin: auto;
+    height: 10px;
+}
+
+#contact {
+    background: #4aaaa5;
+    width: 250px;
+    text-align: center;
+    float: left;
+    width: 33.3%;
+    margin: 0;
+}
+
+#navigation2 {
+    /* width: 250px; */
+    float: right;
 }
 
 .nav2 {
-    float: right;
-    padding: 40px 10px 10px 20px;
+    padding: 40px 20px 20px 20px;
+    display: inline;
+}
+
+.main-content2 {
+    width: 960px;
+    margin: auto;
+    font-family: 'Arial', 'Helventica Neue', 'Helvetica', 'sans-serif';
+    background: white;
+    padding: 200px;
 }
 
 #full {
@@ -64,13 +102,13 @@ img {
 }
 
 .nav3 {
-    float: right;
-    padding: 40px 10px 10px 20px;
-    list-style-type: none;
+    padding: 40px 20px 20px 20px;
+    display: inline;
 }
 
 #navigation3 {
-    display: inline;
+    /* width: 250px; */
+    float: right;
 }
 
 #portfolio {
@@ -83,13 +121,13 @@ img {
 }
 
 #main-portfolio {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    float: left;
+    width: 960px;
+    margin: auto;
+    font-family: 'Arial', 'Helventica Neue', 'Helvetica', 'sans-serif';
+    background: white;
+    padding: 200px;
   }
 
   body {
-    background-image: url("circle-blues.png");
+    background-image: url("../circle-blues.png");
   }
