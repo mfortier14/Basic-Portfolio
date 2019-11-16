@@ -4,6 +4,7 @@
 <head>
     <title>Marissa Fortier</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
@@ -30,18 +31,68 @@
     <section id="full">
    
    <div id="main-content">
-       <h1>About Me</h1>
-        <img src="images/headshot (2).JPG">
-   <p>My name is Marissa Fortier and I'm a 23-year-old marketing professional. I have a background in email automaticn
-        strategy in both event and recruiting efforts.
-        I started my career path at Plymouth State University, where I studied and earned my degree in Strategic
-        Marketing.
-        Currently, I work at Medicus Healthcare Solutions where I manage email campaigns for multiple departments as
-        well as managing the company's text recruiting efforts. I have implemented new email marketing language and
-        strategies, as well as training programs and best practices for text.
-    </p>
+       <div id="mainText">  
+
+           <img id="headshot" src="images/headshot (2).JPG">
+           <h1>About Me</h1>
+           <p>My name is Marissa Fortier and I'm a 23-year-old marketing professional. I have a background in email automaticn
+               strategy in both event and recruiting efforts.
+               I started my career path at Plymouth State University, where I studied and earned my degree in Strategic
+               Marketing.
+               Currently, I work at Medicus Healthcare Solutions where I manage email campaigns for multiple departments as
+               well as managing the company's text recruiting efforts. I have implemented new email marketing language and
+               strategies, as well as training programs and best practices for text.
+            </p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem deleniti tenetur, possimus earum adipisci consequatur fuga aspernatur quis quas numquam nobis repellat porro incidunt laudantium mollitia? Consequuntur laboriosam optio temporibus sunt nihil consectetur ut magni tempora suscipit enim vero eligendi, blanditiis fuga reprehenderit dolore vitae debitis dolor tenetur, dolorum iste qui facilis iusto natus. Perferendis porro sapiente repellendus tenetur autem qui doloribus! Aut, repellat delectus? Tempora dolorum nemo facere delectus beatae temporibus in enim ratione est nobis rerum optio tempore perferendis, libero vero nesciunt quis voluptate vitae minima, neque laudantium, impedit iste ex dicta! Quibusdam officia ex culpa doloribus eum?</p>
+        </div>
     </div>
     </section>
+        <div id="main-portfolio">
+            <h1>Portfolio</h1>
+            <div class="row">
+                <div id="col-md-01">
+                        <div class="card-deck">
+                                <div class="card">
+                                  <img src="..." class="card-img-top" alt="...">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Portfolio</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                  </div>
+                                  <div class="card-footer">
+                                    <small class="text-muted">Last updated 3 mins ago</small>
+                                  </div>
+                                </div>
+                                <div class="card-deck">
+                                        <div class="card">
+                                          <img src="..." class="card-img-top" alt="...">
+                                          <div class="card-body">
+                                            <h5 class="card-title">Card title</h5>
+                                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                          </div>
+                                          <div class="card-footer">
+                                            <small class="text-muted">Last updated 3 mins ago</small>
+                                          </div>
+                                        </div>
+                </div>
+            </div>
+          </div> 
+          
+            <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                      <small id="emailHelp" class="form-text text-muted"></small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group form-check">
+                      <label for="exampleInputMessage1">Message</label>
+                      <input type="message" class="form-control" id="exampleInputMessage1" placeholder="Message">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
 </body>
 
 </html>
