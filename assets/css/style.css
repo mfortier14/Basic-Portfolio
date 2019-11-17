@@ -181,3 +181,12 @@ button {
     border-radius: 30px;
     border: 10px solid;
 }
+
+.card {
+    margin: 20.2rem;
+}
+
+.title {
+    font-size: 20px;
+    text-align: center;
+}
